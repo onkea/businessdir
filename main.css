@@ -1,0 +1,354 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: arial, helvetica, sans serif;
+	font-size: 10px;
+	background: #000000;
+	background-image: url(http://www.nanaimosalons.com/images/salons-background.gif);
+	background-repeat: repeat-x;
+
+}
+
+#wrapper {
+	width: 800px;
+	border-left: 2px solid #000000;
+	border-right:2px solid #000000;
+	border-bottom: 2px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-top: 0px;
+	border-top:0px;
+	background: #ffffff;
+	height: 100%;
+	min-height: 1100px;
+
+}
+
+#header {
+	margin:0px;
+	padding:0px;
+	background: #000000;
+
+}
+
+#navpane{
+	float:left;
+	position:relative;
+	display:block;
+	margin-left:10px;
+	height: 100%;
+
+	}
+#navpane ul {
+	text-decoration:none;
+	width: 10em;
+	margin-bottom:5px;
+	}
+	
+#navpane li a{
+	line-height: 1.4em;
+	text-decoration: none;
+	width: 9em;
+
+	}
+
+#navigation {
+	margin: 0px;
+	background: #ffffff;
+	color: #000000;
+	padding: 10px;	
+	font-size: 10pt;
+	list-style-type:circle;
+}
+
+#navigation li{
+	margin-left: 17px;
+}
+
+#regions {
+	margin: 10px 0 10px 0;
+	background: #ffffff;
+	color: #000000;
+	padding: 10px;	
+	font-size: 12pt;
+	border: 1px solid #ffffff;
+}
+
+#regions li{
+	font-size: 12pt;
+	font-weight:bold;
+	color: #000000;
+	margin-left:14px;
+	}
+	
+#regions a{
+	color: #533B13;
+}
+
+#content{
+	margin-top:2px;
+	text-align: center;
+	margin-left: 26%;
+	height: 100%;
+}
+
+#article{
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 40px;
+	margin-right:10px;
+}
+
+#company{
+	padding: 0 0 10px 0;
+	margin-left:5px;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+
+#sponsor_company{
+	padding: 0 0 10px 0;
+	margin-left:5px;
+	margin-right:15px;
+	margin-bottom:10px;
+	border: 1px solid #000;
+}
+
+
+
+.companyDetails{
+	border: 0px solid #CCC;
+	text-align: left;
+	padding: 10px;
+	margin: 0px;
+	width: 92%;
+	
+	background: #fff; /* for non-css3 browsers */
+
+	border-top: 1px dotted #ddd;
+}
+
+.companyDetails td{
+	border: 0px solid #CCC;
+	padding:5px;
+	margin: 0px;
+}
+
+.website {
+	width: 150px;
+	text-align: left;
+	font-size: 11pt
+}
+
+.websitelink {
+	
+}
+
+.phone{
+	font-family: Helvetica, Arial, Arial Black;
+	font-size:14px;
+	color: #666;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.phone2{
+	font-family: Helvetica, Arial, Arial Black;
+	font-size:14px;
+	color: #666;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.side_by_side{
+
+
+}
+
+
+.company_logo{
+float:left;
+width:20%;
+}
+.description{
+	background: #ffffff;
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+	padding:5px 5px 2px 5px;
+	color: #000;	
+	text-align:left;
+	margin-bottom: 0px;
+	width: 95%;
+}
+
+
+
+#name{
+	background: #ffffff;
+	font-family: Helvetica, Arial;
+	font-size: 18px;
+	padding:5px 5px 2px 5px;
+	color: #777;
+	text-align:left;
+
+	margin-bottom: 0px;
+	width: 70%;
+
+}
+
+#name A:link {
+	text-decoration:none;
+	color: #533B13;
+}
+
+#name A:hover {
+	text-decoration:none;
+	color: #66cccc;
+}
+
+h1{
+	margin-left: 0;
+	margin-bottom:0px;
+	background:#ffffff;
+	color:#000000;
+	padding:10px;
+	font-size:26px;
+	font-weight: bold;
+	text-align:left;
+}
+
+#siteInfo{
+	width: 100%;
+	background: #000000;
+	padding:0px;
+	padding-bottom:10px;
+
+}
+
+#siteInfo h1{
+	color: #ffffff;
+	background: #000000;
+	font-size:10pt;
+	padding-bottom:0px;
+	padding-top:5px;
+	margin-bottom: 0px;
+}
+
+.smallInfo{
+	padding:0 0 0 10px;
+	color: #cccccc;
+	font-weight: bold;
+	font-size: 12px;
+	}
+
+.details {
+	font-size: 10pt;
+	font-weight: normal;
+
+}
+
+
+
+.showtimes {
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.address {
+	font-size:10pt;
+	margin-top: 0px;
+}
+
+	
+#adsense {
+	text-align: center;
+	float:right;
+	position:relative;
+	display:block;
+	border-left: 10px solid #ffffff;
+}
+
+
+#footer_ad
+{
+	background: #cccccc; /* for non-css3 browsers */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#E0FFFF'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#E0FFFF)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fff,  #E0FFFF); /* for firefox 3.6+ */ 
+
+padding: 20px;
+	font-size: 1.4em;
+	-moz-border-radius: 8px 8px 8px 8px;
+	text-align: left;
+	width: 140px;
+	border: 1px solid #87CEFA;
+
+}
+
+#footer_ad a:link
+{
+	text-decoration: none;
+}
+
+em
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+.clear
+{
+	clear: both;
+}
+
+#contact_link
+{
+	padding: 7px 7px 0 0;
+	width: 150px;
+	float: right;
+	color: #fff;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+#site_desc
+{
+	float: left;
+}
+
+#contact_link a
+{
+	color: #eee;
+	text-decoration: none;
+}
+
+#salon_links
+{
+	padding: 10px;
+	font-size: 12px;
+}
+
+#salon_links a
+{
+	text-decoration: none;
+}
+
+#page_alert_success
+{
+	padding: 20px 20px 0 0;
+	color: green;
+	text-align: left;
+}
